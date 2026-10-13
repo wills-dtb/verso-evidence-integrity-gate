@@ -1,0 +1,27 @@
+{
+  "study_id": "verso-demo-onboarding-001",
+  "evidence": {
+    "r01:12": "I got stuck on the permissions screen and wasn't sure what I was agreeing to.",
+    "r02:07": "The first setup screens were confusing. I had to go back twice before I understood it.",
+    "r03:15": "Onboarding was straightforward for me and I finished without needing help.",
+    "r04:03": "The permissions wording was confusing and I nearly stopped there.",
+    "r05:09": "I liked the setup. It was quick and clear."
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Several users found the onboarding permissions step confusing.",
+      "evidence_ids": ["r01:12", "r02:07", "r04:03"]
+    },
+    {
+      "id": "c2",
+      "text": "Most users abandon onboarding within 10 minutes because permissions are confusing.",
+      "evidence_ids": ["r01:12", "r02:07", "r04:03"]
+    },
+    {
+      "id": "c3",
+      "text": "Users consistently described onboarding as effortless.",
+      "evidence_ids": ["r03:15", "r05:09"]
+    }
+  ]
+}
